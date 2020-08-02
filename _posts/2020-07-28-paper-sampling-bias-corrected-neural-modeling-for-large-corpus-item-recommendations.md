@@ -143,7 +143,7 @@ $$
 Here $$ t $$ means at step $$ t $$. $$ B $$ contains the estimation of $$
 \delta $$ of $$ y $$. Suppose the number of steps of two consecutive hits
 folllow a distribution represented of a random variable $$ \Delta $$ with
-mean \delta = \mathbb{E} \left( \Delta \right). Formally, in case of no
+mean $$ \delta = \mathbb{E} \left( \Delta \right) $$. Formally, in case of no
 collision, we will show the bias and variance of this online estimation.
 By the way, we can use multiple arrays with multiple hash function to
 alleviate collision.
