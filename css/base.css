@@ -32,7 +32,7 @@ a img{ border:none; }
 
 body {
   font-family: 'Zilla Slab', serif;
-  font-size: 14.5px;
+  font-size: 20.0px;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
 }
@@ -363,34 +363,34 @@ blockquote p {
 }
 
 table {
-	width: 100%;
-	border-top: 1px solid #CCCCCC;
-	border-bottom: 2px solid #CCC;
-	color: #000;
-	background: #fff;
-	border-collapse: separate;
-	font-size: 11px;
+    width: 100%;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 2px solid #CCC;
+    color: #000;
+    background: #fff;
+    border-collapse: separate;
+    font-size: 11px;
 }
 
 caption {
-	padding: 10px 10px 5px 0;
-	text-align: left;
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: bold;
+    padding: 10px 10px 5px 0;
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 th {
-	text-align: center;
-	padding: 5px;
+    text-align: center;
+    padding: 5px;
 }
 
 td {
-	text-align: center;
-	padding: 3px 5px;
+    text-align: center;
+    padding: 3px 5px;
 }
 .odd td {
-	background: #F0F1F2;
+    background: #F0F1F2;
 }
 table.data th, table.data td {
   text-align: left;
@@ -534,3 +534,4 @@ code.html span.doctype {
 .user-avatar {
   border-radius: 12px;
 }
+
