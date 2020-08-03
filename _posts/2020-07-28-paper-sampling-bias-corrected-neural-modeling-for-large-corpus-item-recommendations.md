@@ -158,7 +158,7 @@ $$
 \end{equation}
 $$
 
-The estimation of bias is given by (wrong in paper)
+The estimation of bias is given by (wrong in the paper)
 
 $$
 \begin{equation}
