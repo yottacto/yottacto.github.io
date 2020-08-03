@@ -175,7 +175,7 @@ $$
 $$
 
 We will give the provement in the next section. To get the estimated sampling
-probability $$ \hat{p} $$ of $$ y $$, we can simply perform $$ \frac{1}{B[h(y)]} $$
+probability $$ \hat{p} $$ of $$ y $$, we can simply perform $$ \frac{1}{B[h(y)]} $$.
 
 
 ## Provement
