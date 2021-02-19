@@ -4,8 +4,6 @@ title: "[paper] Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Re
 date: 2020-07-28 23:39 +0800
 ---
 
-# Sampling-Bias Correction
-
 ## Basic Info
 
 - [link](https://github.com/yottacto/academic-publication-reading/blob/master/ai/rec/2019-recsys-sampling-bias-corrected-neural-modeling-for-large-corpus-item-recommendations.pdf) to paper.
