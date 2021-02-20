@@ -9,7 +9,7 @@ url: "https://yottacto.github.io"
 markdown: kramdown
 highlighter: rouge
 
-plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed', 'jekyll-toc']
 
 paginate: 4
 
