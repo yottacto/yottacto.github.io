@@ -26,7 +26,9 @@ $$
 \underbrace{p_{\theta} \left( s_{1}, a_{1}, \dots, s_{T}, a_{T} \right)}_{p_{\theta} \left( \tau \right) }
 =p \left( s_{1} \right) \prod_{t=1}^{T} \underbrace{\pi_{\theta} \left( a_{t} \mid s_{t} \right)  p \left( s_{t+1} \mid s_{t}, a_{t} \right) }_{\text{Markov chain on} \left( s, a \right) }
 
-\\
+$$
+
+$$
 
 \begin{aligned}
 \theta^{*} &= \mathop{\arg\max}_{\theta} E_{ \tau \sim p_{\theta} \left( \tau \right) } \left[ \sum_{t}{r \left( s, a \right) } \right] \\
