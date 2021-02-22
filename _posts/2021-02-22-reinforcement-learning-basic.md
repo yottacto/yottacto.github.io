@@ -147,18 +147,18 @@ $$
 \caption{SLAM}
 \begin{algorithmic}
 \PROCEDURE{SLAM}{$X_{t-1}, u_t, z_t$}
-    \STATE $\bar{X}_t = X_t = \empty$
-    \FOR{$m = 1$ \TO $M$}
-        \STATE $x_t^{[k]} = $ \CALL{MotionUpdate}{$u_t, x_{t-1}^{[k]}$}
-        \STATE $w_t^{[k]} = $ \CALL{SensorUpdate}{$z_t, x_{t}^{[k]}$}
-        \STATE $m_t^{[k]} = $ \CALL{UpdateOccupancyGrid}{$z_t, x_{t}^{[k]}, m_{t-1}^{[k]}$}
-        \STATE $\bar{X}_t = \bar{X}_t + \left < x_{t}^{[k]}, w_{t}^{[k]} \right >$
-    \ENDFOR
-    \FOR{$k = 1$ \TO $M$}
-        \STATE draw $i$ with probability $w_t^{[i]}$
-        \STATE add $\left < x_t^{[i]}, m_t^{[i]} \right >$ \TO $X_t$
-    \ENDFOR
-    \RETURN $X_t$
+\STATE $\bar{X}_t = X_t = \empty$
+\FOR{$m = 1$ \TO $M$}
+\STATE $x_t^{[k]} = $ \CALL{MotionUpdate}{$u_t, x_{t-1}^{[k]}$}
+\STATE $w_t^{[k]} = $ \CALL{SensorUpdate}{$z_t, x_{t}^{[k]}$}
+\STATE $m_t^{[k]} = $ \CALL{UpdateOccupancyGrid}{$z_t, x_{t}^{[k]}, m_{t-1}^{[k]}$}
+\STATE $\bar{X}_t = \bar{X}_t + \left < x_{t}^{[k]}, w_{t}^{[k]} \right >$
+\ENDFOR
+\FOR{$k = 1$ \TO $M$}
+\STATE draw $i$ with probability $w_t^{[i]}$
+\STATE add $\left < x_t^{[i]}, m_t^{[i]} \right >$ \TO $X_t$
+\ENDFOR
+\RETURN $X_t$
 \ENDPROCEDURE
 \end{algorithmic}
 \end{algorithm}

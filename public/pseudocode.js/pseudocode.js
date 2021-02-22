@@ -1326,7 +1326,7 @@ Renderer.prototype._newLine = function() {
         if (this._options.lineNumber) {
             this._html
                 .beginSpan('ps-linenum', {
-                    'left': -((this._blockLevel - 1) * (indentSize * 1.25)) + 'em',
+                    'left': -((this._blockLevel - 1) * (indentSize * 1.12)) + 'em',
                 })
                 .putText(this._numLOC + this._options.lineNumberPunc)
                 .endSpan();
@@ -1670,3 +1670,4 @@ module.exports = {
 
 },{}]},{},[1])(1)
 });
+
