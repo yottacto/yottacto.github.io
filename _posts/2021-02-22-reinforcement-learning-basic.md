@@ -62,7 +62,9 @@ $$
 J \left( \theta \right) = E_{\tau \sim p_{\theta} \left( \tau \right) } [ \underbrace{r \left( \tau \right) }_{ \sum_{t=1}^{T}{r \left( s_t, a_t \right) } } ]
 = \int{p_{\theta}\left( \tau \right) r \left( \tau \right) d\tau}
 
-\\
+$$
+
+$$
 
 \begin{aligned}
 
